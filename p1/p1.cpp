@@ -6,10 +6,10 @@
 
 #include <iostream>
 
- using namespace std;
+using namespace std;
 
- int main(void)
- {
+int main(void)
+{
     int sum, i;
 
     for (i = 0, sum = 0; i < 1000; i++)
