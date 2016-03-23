@@ -38,7 +38,7 @@ int main(void)
 
 int is_prime(int n)
 {
-    for (int i = 2; i < sqrt(n) + 1; i++) {
+    for (int i = 3; i < sqrt(n) + 1; i++) {
         if (!(n%i)) {
             return 0;
         }
