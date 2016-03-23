@@ -26,8 +26,9 @@ int main(void)
     primes.push_back(7);
     primes.push_back(11);
     primes.push_back(13);
+    primes.push_back(17);
 
-    for (int i = 17; primes.size() <= MAX_PRIME; i++) {
+    for (int i = 19; primes.size() <= MAX_PRIME; i++) {
         if (is_prime(i)) {
             primes.push_back(i);
         }
